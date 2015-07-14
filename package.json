@@ -1,0 +1,33 @@
+{
+  "name": "docker-compose-interactive",
+  "version": "0.0.0",
+  "description": "Makes docker-compose simpler to work with.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masondesu/docker-compose-interactive"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose"
+  ],
+  "author": "Mason Stewart <masondesu@gmail.com> (https://twitter.com/masondesu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masondesu/docker-compose-interactive/issues"
+  },
+  "homepage": "https://github.com/masondesu/docker-compose-interactive",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "^0.8.5",
+    "lodash": "^3.10.0",
+    "node-shell": "^0.1.6",
+    "shell": "^0.3.2",
+    "shelljs": "^0.5.1",
+    "yamljs": "^0.2.3"
+  }
+}
